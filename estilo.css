@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(115, 218, 24);
+    color: rgb(255, 255, 255);
+}
+form{
+background-color: rgb(0, 0, 0);
+padding: 16px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: rgb(255, 255, 255);
+display: flex;
+flex-direction: column;
+display: flex;
+
+}
+#resultado{
+    background-color: white;
+    color: black;
+    width: 250px;
+    height: 55px;
+    font-size: 50px;
+}
+#valor1 #valor2{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+form input{
+    display: flex;
+    height: 40px;
+    border: 1px solid rgb(51, 51, 51);
+    padding-left: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+button{
+    background-color: rgb(77, 77, 77);
+    color: white;
+    padding: 4px;
+}
+
+   
+
